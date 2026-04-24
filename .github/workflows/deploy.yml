@@ -8,8 +8,8 @@ on:
 env:
   AZURE_FUNCTIONAPP_NAME: my-dotnet-func-12345
   DOTNET_VERSION: "8.0"
-  PROJECT_PATH: "MyFunctionApp/MyFunctionApp.csproj"
-  PUBLISH_PATH: "MyFunctionApp/publish"
+  PROJECT_PATH: "MyFunctionApp.csproj"
+  PUBLISH_PATH: "publish"
 
 jobs:
   build-and-deploy:
